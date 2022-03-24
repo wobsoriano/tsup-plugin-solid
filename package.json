@@ -19,7 +19,6 @@
   "scripts": {
     "build-fast": "tsup src/index.ts --external tsup --format cjs,esm",
     "build": "pnpm run build-fast -- --dts-resolve",
-    "test": "vitest run",
     "prepublishOnly": "pnpm run build",
     "release": "bumpp --commit --push --tag && pnpm publish",
     "lint": "eslint --ext=js,ts,jsx,tsx .",
@@ -36,7 +35,6 @@
     "solid-js": "^1.3.13",
     "source-map": "^0.7.3",
     "tsup": "5.11.13",
-    "typescript": "4.5.4",
-    "vitest": "0.2.5"
+    "typescript": "4.5.4"
   }
 }
