@@ -9,6 +9,11 @@
     "noUnusedLocals": true,
     "noImplicitAny": true,
     "allowJs": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "esbuild": ["node_modules/esbuild/"],
+      "source-map": ["node_modules/source-map/"]
+    }
   }
 }
