@@ -1,6 +1,6 @@
 # tsup-plugin-solid
 
-Tsup plugin for [Solid](https://github.com/solidjs/solid). Uses [esbuild-plugin-solid](https://github.com/amoutonbrady/esbuild-plugin-solid) under the hood.
+[Tsup](https://github.com/egoist/tsup) plugin for [Solid](https://github.com/solidjs/solid). Uses [esbuild-plugin-solid](https://github.com/amoutonbrady/esbuild-plugin-solid) under the hood.
 
 ## Installation
 
