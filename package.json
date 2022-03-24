@@ -1,7 +1,7 @@
 {
   "name": "tsup-plugin-solid",
   "version": "0.0.4",
-  "description": "Plugin to compile Solid jsx components with tsup.",
+  "description": "Tsup plugin for Solid.",
   "publishConfig": {
     "access": "public"
   },
